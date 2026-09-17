@@ -27,4 +27,7 @@ jobs:
             pip install -r requirements.txt
 
         - name: run tests
-          run: pytest
+          run: |
+            pytest --junitxml = test-results.xml
+            
+
