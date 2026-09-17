@@ -1,4 +1,4 @@
-from calculator import add, subtract, multiply, divide
+from app.calculator import add, subtract, multiply, divide
 
 def test_add():
     assert add(1,2) == 3
