@@ -13,4 +13,4 @@ def test_multiply():
 
 
 def test_divide():
-    assert divide(100,2) == 5
+    assert divide(100,2) == 50
